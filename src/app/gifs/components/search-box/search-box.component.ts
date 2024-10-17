@@ -12,7 +12,8 @@ import { GifsService } from '../../services/gifs.service';
       #txtTagInput
     >
   `,
-  standalone:true
+  standalone:true,
+  providers: [GifsService]
 
 })
 
